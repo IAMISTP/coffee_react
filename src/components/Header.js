@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { CiBellOn, CiUser, CiShoppingCart } from "react-icons/ci";
-import Menu from "./Menu";
 import { useNavigate } from "react-router-dom";
 
 export default function Header() {
@@ -56,7 +55,6 @@ export default function Header() {
           </ul>
         </div>
       </nav>
-      <Menu />
     </header>
   );
 }
